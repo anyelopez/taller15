@@ -55,13 +55,14 @@ list-style: square;
 
 ol li
 {
-list-style:georgian;
+list-style:symbols(I, II, III, IV, V, VI, VI,);
 }
-#imagen
+#box1
 {
 height:200px;
-padding: 15px 15px 50px 15px;
+padding: 15px 15px 15px 15px;
 background-color: beige;
 border-color: blueviolet;
 border-width: 10px;
+border-style:solid;
 }
