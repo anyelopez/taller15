@@ -1,0 +1,67 @@
+/*Taller 15 css del html*/
+
+.contenido
+{
+background-color: hotpink;
+grid-area: content;
+}
+
+p:nth-child(odd)
+{
+background-color: rgb(247, 218, 240);
+}
+p:nth-child(even)
+{
+background-color: lightpink;
+}
+p:first-child i 
+{
+color: rgb(114, 130, 158)
+}
+section
+{
+color: rgb(94, 199, 167);
+}
+section section
+{
+color:orange;
+flex-direction: row;
+}
+section section section
+{
+color: blueviolet;
+}
+
+section:hover 
+{
+color: purple;
+}
+section:hover section:hover
+{
+color:pink;
+}
+section:hover section:hover section:hover
+{
+color:rgb(231, 122, 122);
+}
+ul
+{
+background-color: rgb(85, 129, 131);
+}
+ul li
+{
+list-style: square;
+}
+
+ol li
+{
+list-style:georgian;
+}
+#imagen
+{
+height:200px;
+padding: 15px 15px 50px 15px;
+background-color: beige;
+border-color: blueviolet;
+border-width: 10px;
+}
